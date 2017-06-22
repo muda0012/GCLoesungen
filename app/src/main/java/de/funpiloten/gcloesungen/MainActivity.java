@@ -9,7 +9,37 @@ import java.util.regex.Pattern;
 
 public class MainActivity extends Activity {
 
-    private String Loesung =
+    private String Loesung = "Panzersperre Insheim\n" +
+            "    NACHDEM WIR DIE ERSTEN VIER CACHES GEFUNDEN HATTEN WAREN WIR\n" +
+            "    FEUER UND FLAMME ES KAMEN NEUN WEITERE HINZU DA WIR SELBST\n" +
+            "    NOCH NULL VERSTECKT HABEN HABEN WIR NUN DAMIT ANGEFANGEN\n" +
+            "\n" +
+            "    SO KAMEN WIR AUF DIE IDEE MIT DEM RAETSEL NEUN FREUNDE HABEN\n" +
+            "    ES GEGEN GELESEN UND DREI HABEN ES HERAUSGEFUNDEN DIE ANDEREN\n" +
+            "    HATTEN NULL AHNUNG\n" +
+            "\n" +
+            "    WIR HOFFEN DASS WENIGSTENS FUENF WEITERE DEN CACHE FINDEN\n" +
+            "    WERDEN\n" +
+            "\n" +
+            "    BEIM VERSTECKEN KAMEN WIR AN NULL^ WEINEN UND AUCH NULL\n" +
+            "    PFERDEN VORBEI DA FUER SAHEN WIR ACHT KUEHE IMMER HIN\n" +
+            "\n" +
+            "    BEI BAUM NUMMER NULL-ACHT HABEN WIR UEBERLEGT DEN CACHE ZU\n" +
+            "    VERSTECKEN SIND DANN ABER DECH WEITER GELAUFEN\n" +
+            "\n" +
+            "    DAS LOGBUCH HAT ACHT SEITEN UND WIR HABEN SIEBEN MINUS SECHS\n" +
+            "    STIFTE DA ZU GELEGT\n" +
+            "\n" +
+            "    Station1:\n" +
+            "    49°09.305\n" +
+            "    8°08.876\n" +
+            "    Suche Telefonnummer: 0800/0837111 Z = 111\n" +
+            "    49°09.305-111-14\n" +
+            "    8°08.876-111-133\n" +
+            "    Final:\n" +
+            "    49°09.180\n" +
+            "    8°08.632";
+    private String s2 =
                     "14,1,3,8,4,5,13 23,9,18 4,9,5 5,18,19,20,5,14 22,9,5,18 3,1,3,8,5,19 7,5,6,21,14,4,5,14 8,1,20,20,5,14 23,1,18,5,14 23,9,18 " +
                     "6,5,21,5,18 21,14,4 6,12,1,13,13,5 5,19 11,1,13,5,14 14,5,21,14 23,5,9,20,5,18,5 8,9,14,26,21, 4,1 23,9,18 19,5,12,2,19,20 " +
                     "14,15,3,8 14,21,12,12 22,5,18,19,20,5,3,11,20 8,1,2,5,14 8,1,2,5,14 23,9,18 14,21,14 4,1,13,9,20 1,14,7,5,6,1,14,7,5,14," +
@@ -95,7 +125,7 @@ public class MainActivity extends Activity {
 
         }
         Log.e("Ergebnis:", text);
-        tv.setText(text);
+        tv.setText(Loesung);
     }
 }
 
